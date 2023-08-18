@@ -1,0 +1,22 @@
+.blog-detail {
+    text-align: center;
+    height: 100%;
+
+    &__image {
+        margin-bottom: 16px;
+
+        img {
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        
+        color: var(--gray-text-color);
+    }
+}

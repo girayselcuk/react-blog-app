@@ -1,0 +1,9 @@
+.main-layout {
+    display: grid;
+    max-width: 992px;
+    margin: 0 auto;
+    width: 94%;
+    grid-template-rows: 80px 1fr;
+    row-gap: 32px;
+    height: 100%;
+}
