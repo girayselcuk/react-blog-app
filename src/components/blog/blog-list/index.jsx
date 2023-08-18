@@ -29,7 +29,7 @@ const BlogList = () => {
 
     return (
         data.map((post) => (
-            <Link to={`http://localhost:3000/detail/${post.id}`}>
+            <Link to={`/detail/${post.id}`}>
                 <BlogCard key={post.id} id={post.id} title={post.title} text={post.body} category={post.tags[0]}/>
             </Link>
 
